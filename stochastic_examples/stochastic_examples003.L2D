@@ -1,0 +1,18 @@
+Alphabet = {A, B, C}
+
+Draw = {
+        A -> 1,
+        B -> 0,
+        C -> 0
+}
+
+Rules = {
+        A -> "A+A+A+CCB",
+        B -> "A+A-"-2; "A+CCBCC-A"-2,
+        C -> "C"
+}
+
+Initiator     = "A"
+Angle         = 60
+StartingAngle = 90
+Iterations    = 4

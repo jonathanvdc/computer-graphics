@@ -1,0 +1,16 @@
+Alphabet = {A, B}
+
+Draw = {
+        A -> 1,
+        B -> 0
+}
+
+Rules = {
+        A -> "A+A+A+B",
+        B -> "A+A-"-2; "A+B-A"-2
+}
+
+Initiator     = "B"
+Angle         = 60
+StartingAngle = 90
+Iterations    = 3
